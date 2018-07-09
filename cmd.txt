@@ -1,4 +1,5 @@
 回退上一个版本：git reset --hard HEAD^
+撤销回退的操作：git reset --hard commit id
 
 查看日志：git log [--pretty=oneline]
 
