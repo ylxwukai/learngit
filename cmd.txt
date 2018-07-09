@@ -1,0 +1,10 @@
+回退上一个版本：git reset --hard HEAD^
+
+查看日志：git log [--pretty=oneline]
+
+查看仓库当前状态：git status
+
+提交修改：git add xx.txt
+        ：git commit xx.txt
+
+查看修改的内容：git diff
