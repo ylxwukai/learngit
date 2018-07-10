@@ -1,5 +1,6 @@
 回退上一个版本：git reset --hard HEAD^
-撤销回退的操作：git reset --hard commit id
+撤销回退的操作：git reset --hard commit_id
+查看每一条命令的记录：git reflog
 
 查看日志：git log [--pretty=oneline]
 
@@ -9,3 +10,5 @@
         ：git commit xx.txt
 
 查看修改的内容：git diff
+
+恢复未提交的修改：git checkout -- file 
