@@ -16,3 +16,7 @@
 撤销暂存区的修改：git reset HEAD file
 
 提交修改至GitHub：git push origin master
+
+关联一个远程库：git remote add origin https://github.com/ylxwukai/learngit.git
+
+第一次推送master的所有内容：git push -u origin master
