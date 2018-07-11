@@ -14,3 +14,5 @@
 恢复未提交的修改：git checkout -- file
 
 撤销暂存区的修改：git reset HEAD file
+
+提交修改至GitHub：git push origin master
