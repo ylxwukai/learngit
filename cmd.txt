@@ -20,3 +20,5 @@
 关联一个远程库：git remote add origin https://github.com/ylxwukai/learngit.git
 
 第一次推送master的所有内容：git push -u origin master
+
+提交最新的修改到远端：git push origin master
